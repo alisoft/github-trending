@@ -1,7 +1,7 @@
 name: Update Languages
 on:
   schedule:
-    - cron: '11 19 * * MON'
+    - cron: '0 1 * * MON'
   push:
     paths-ignore:
       - 'src/languages.json'
